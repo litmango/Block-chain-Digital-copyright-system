@@ -1,0 +1,22 @@
+[{
+	"title" : "登记作品",
+	"icon" : "icon-computer",
+	"href" : "app/author-inputGoods.html",
+	"spread" : false
+},{
+	"title" : "查询作品",
+	"icon" : "icon-text",
+	"href" : "app/author-allGoods.html",
+	"spread" : false
+},{
+	"title" : "授权经销商作品",
+	"icon" : "&#xe64c;",
+	"href" : "app/author-toDealerGoods.html",
+	"spread" : false
+},{
+	"title" : "追溯交易记录",
+	"icon" : "&#xe631;",
+	"href" : "app/author-translateLog.html",
+	"spread" : false
+}
+]

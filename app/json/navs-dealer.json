@@ -1,0 +1,17 @@
+[{
+	"title" : "库存查询",
+	"icon" : "icon-text",
+	"href" : "app/dealer-allGoods.html",
+	"spread" : false
+},{
+	"title" : "授权平台作品",
+	"icon" : "&#xe64c;",
+	"href" : "/app/dealer-toPlatformGoods.html",
+	"spread" : false
+},{
+	"title" : "追溯交易记录",
+	"icon" : "&#xe631;",
+	"href" : "/app/dealer-translateLog.html",
+	"spread" : false
+}
+]

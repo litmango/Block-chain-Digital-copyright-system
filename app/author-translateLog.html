@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>数字授权管理系统</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="/app/layui/css/layui.css" media="all" />
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_tnyc012u2rlwstt9.css" media="all" />
+</head>
+<body class="childrenBody">
+  <blockquote class="layui-elem-quote news_search">
+    <div class="layui-inline">
+        <div class="layui-input-inline">
+          <input type="text" value="" placeholder="请输入作品ID" class="layui-input search_input" id="goodsID">
+        </div>
+        <button class="layui-btn" id='translateLog'>查询</button>
+    </div>
+  </blockquote>
+  <div class="layui-form users_list">
+      <table class="layui-table"  id='logs'>
+        <colgroup>
+        <col width="35%">
+        <col width="35%">
+        <col width="10%">
+        <col width="20%">
+        </colgroup>
+        <thead>
+        <tr>
+          <th>交易发起地址:</th>
+          <th>交易接收地址:</th>
+          <th>交易份额:</th>
+          <th>交易时间:</th>
+        </tr> 
+        </thead>
+        <tbody class="users_content"  id='logs'></tbody>
+    </table>
+  </div>
+  <div id="page"></div>
+   <script type="text/javascript" src="/app/layui/layui.js"></script>
+  <script type="text/javascript" src="/app/js/authors.js"></script> 
+</body>
+</html>
