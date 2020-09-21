@@ -702,4 +702,5 @@ truffle compile //编译
 truffle migrate --network truffle  //部署
 npm run dev
 ```
-
+### 求赞
+![Image text](https://github.com/litmango/Block-chain-Digital-copyright-system/blob/master/app/images/787801731591035393.jpg)
